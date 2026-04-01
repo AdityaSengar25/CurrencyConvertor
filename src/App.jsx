@@ -25,11 +25,11 @@ function App() {
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1689732888407-310424e3a372?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+                backgroundImage: `url(https://images.unsplash.com/photo-1622760274068-a26adafc984f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
             }}
         >
             <div className="w-full">
-                <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+                <div className="w-full max-w-md mx-auto border border-gray-200 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
                         onSubmit={(e) => {
                             e.preventDefault();
